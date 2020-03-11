@@ -1,7 +1,8 @@
 CREATE DATABASE restapi;
 USE restapi;
-CREATE TABLE blog (
+CREATE TABLE machete (
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  title VARCHAR(500) NOT NULL,
-  content VARCHAR(5000) NOT NULL
+  ip CHAR(10) NOT NULL,
+  movieid char(10) NOT NULL,
+  order int(6)
 );

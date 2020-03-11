@@ -6,8 +6,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface BlogRespository extends JpaRepository<Blog, Integer> {
+public interface macheteRespository extends JpaRepository<machete, Integer> {
 
-    List<Blog> findByTitleContainingOrContentContaining(String text, String textAgain);
-
+    
 }
